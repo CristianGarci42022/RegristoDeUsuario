@@ -30,8 +30,8 @@ public class LLenarPaginaFinal implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Enter.theValue(datos.get(0).getStrContrasena()).into(CONTRASEÑA),
-                Enter.theValue(datos.get(0).getStrContrasena()).into(CONFIRMAR_CONTRASEÑA),
+                Enter.theValue(datos.get(0).getStrContrasena()).into(CONTRASENA),
+                Enter.theValue(datos.get(0).getStrContrasena()).into(CONFIRMAR_CONTRASENA),
                 Click.on(CHECKBOX_STAY_INFORMED),
                 Click.on(CHECKBOX_TERMS_OF_USE),
                 Click.on(CHECKBOX_PRIVACIDAD),

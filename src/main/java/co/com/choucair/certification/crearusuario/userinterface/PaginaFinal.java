@@ -4,9 +4,9 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class PaginaFinal {
-    public static final Target CONTRASEÑA= Target.the("Campo para contraseña de usuario ")
+    public static final Target CONTRASENA= Target.the("Campo para contraseña de usuario ")
             .located(By.id("password"));
-    public static final Target CONFIRMAR_CONTRASEÑA= Target.the("Campo para confirmar contraseña de usuario ")
+    public static final Target CONFIRMAR_CONTRASENA= Target.the("Campo para confirmar contraseña de usuario ")
             .located(By.id("confirmPassword"));
 
     public static final Target CHECKBOX_STAY_INFORMED= Target.the("Checkbox para estar informado ")
