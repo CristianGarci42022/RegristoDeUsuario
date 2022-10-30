@@ -7,6 +7,33 @@ public class Utest_Datos {
     private String strMesNacimiento;
     private String strDiaNacimiento;
     private String strAnoNacimiento;
+    private String strCiudad;
+    private String strCodigoPostal;
+    private String strPais;;
+
+    public String getStrCiudad() {
+        return strCiudad;
+    }
+
+    public void setStrCiudad(String strCiudad) {
+        this.strCiudad = strCiudad;
+    }
+
+    public String getStrCodigoPostal() {
+        return strCodigoPostal;
+    }
+
+    public void setStrCodigoPostal(String strCodigoPostal) {
+        this.strCodigoPostal = strCodigoPostal;
+    }
+
+    public String getStrPais() {
+        return strPais;
+    }
+
+    public void setStrPais(String strPais) {
+        this.strPais = strPais;
+    }
 
     public String getStrNombre() {
         return strNombre;
