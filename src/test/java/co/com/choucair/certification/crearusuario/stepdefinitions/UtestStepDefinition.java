@@ -1,9 +1,7 @@
 package co.com.choucair.certification.crearusuario.stepdefinitions;
 
 import co.com.choucair.certification.crearusuario.model.Utest_Datos;
-import co.com.choucair.certification.crearusuario.tasks.AbrirPaginaUtest;
-import co.com.choucair.certification.crearusuario.tasks.LLenarPaginaDireccion;
-import co.com.choucair.certification.crearusuario.tasks.LLenarPaginaInfoPersona;
+import co.com.choucair.certification.crearusuario.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -29,7 +27,9 @@ public class UtestStepDefinition {
 
     @When("^ingrese toda la informacion requerida$")
     public void ingrese_toda_la_informacion_requerida(List<Utest_Datos> datos) throws Throwable {
-        theActorInTheSpotlight().attemptsTo(LLenarPaginaInfoPersona.laPagina(datos), LLenarPaginaDireccion.laPagina(datos));
+        theActorInTheSpotlight().attemptsTo(LLenarPaginaInfoPersona.laPagina(datos), LLenarPaginaDireccion.laPagina(datos),
+                LLenarPaginaDispositivos.laPagina(datos), LLenarPaginaFinal.laPagina(datos)
+                );
     }
 
     @Then("^se realiza el regristo de manera exitosa$")

@@ -1,6 +1,7 @@
 package co.com.choucair.certification.crearusuario.model;
 
 public class Utest_Datos {
+    //Campos mapeados a rellenar en la automatizacion
     private String strNombre;
     private String strApellido;
     private String strEmail;
@@ -9,7 +10,73 @@ public class Utest_Datos {
     private String strAnoNacimiento;
     private String strCiudad;
     private String strCodigoPostal;
-    private String strPais;;
+    private String strPais;
+    private String strComputador;
+    private String strVercionComputador;
+    private String strLenguajeComputador;
+    private String strDispositivoMovil;
+    private String strModeloDispositivoMovil;
+    private String strSoDispositivoMovil;
+    private  String StrContrasena;
+
+
+    //creacion de get y set de cata uno de los campos creados anteriormente
+
+    public String getStrContrasena() {
+        return StrContrasena;
+    }
+
+    public void setStrContrasena(String strContrasena) {
+        StrContrasena = strContrasena;
+    }
+
+    public String getStrComputador() {
+        return strComputador;
+    }
+
+    public void setStrComputador(String strComputador) {
+        this.strComputador = strComputador;
+    }
+
+    public String getStrVercionComputador() {
+        return strVercionComputador;
+    }
+
+    public void setStrVercionComputador(String strVercionComputador) {
+        this.strVercionComputador = strVercionComputador;
+    }
+
+    public String getStrLenguajeComputador() {
+        return strLenguajeComputador;
+    }
+
+    public void setStrLenguajeComputador(String strLenguajeComputador) {
+        this.strLenguajeComputador = strLenguajeComputador;
+    }
+
+    public String getStrDispositivoMovil() {
+        return strDispositivoMovil;
+    }
+
+    public void setStrDispositivoMovil(String strDispositivoMovil) {
+        this.strDispositivoMovil = strDispositivoMovil;
+    }
+
+    public String getStrModeloDispositivoMovil() {
+        return strModeloDispositivoMovil;
+    }
+
+    public void setStrModeloDispositivoMovil(String strModeloDispositivoMovil) {
+        this.strModeloDispositivoMovil = strModeloDispositivoMovil;
+    }
+
+    public String getStrSoDispositivoMovil() {
+        return strSoDispositivoMovil;
+    }
+
+    public void setStrSoDispositivoMovil(String strSoDispositivoMovil) {
+        this.strSoDispositivoMovil = strSoDispositivoMovil;
+    }
 
     public String getStrCiudad() {
         return strCiudad;
