@@ -18,20 +18,21 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class UtestStepDefinition {
 
-    @Before
+    @Before//se hace la union con feature que es nuestro esenario
     public void setStage(){
         OnStage.setTheStage(new OnlineCast());
     }
+    //esenario convertito en guerquin y se implementa las librerias
     @Given("^Cristian quiere regristarse en la pagina de Utest$")
     public void cristian_quiere_regristarse_en_la_pagina_de_utest() throws Throwable {
-       theActorCalled("Cristian").wasAbleTo(AbrirPaginaUtest.laPagina());
+        theActorCalled("Cristian").wasAbleTo(AbrirPaginaUtest.laPagina());
     }
-
+    //llama cada una de las tareas creandas
     @When("^ingrese toda la informacion requerida$")
     public void ingrese_toda_la_informacion_requerida(List<Utest_Datos> datos) throws Throwable {
         theActorInTheSpotlight().attemptsTo(LLenarPaginaInfoPersona.laPagina(datos), LLenarPaginaDireccion.laPagina(datos),
                 LLenarPaginaDispositivos.laPagina(datos), LLenarPaginaFinal.laPagina(datos)
-                );
+        );
     }
 
     //genererador de preguntas

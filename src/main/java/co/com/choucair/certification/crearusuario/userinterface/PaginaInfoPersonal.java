@@ -4,7 +4,8 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class PaginaInfoPersonal {
-
+    //se continua con los parametros de cada uno de los campos que pide el formulario
+    // y se le agrega el nombre que se encuentra por debajo de cada boton o campo
     public static final Target NOMBRE= Target.the("Campo para nombre de usuario")
             .located(By.id("firstName"));
     public static final Target APELLIDO= Target.the("Campo para apellido de usuario")

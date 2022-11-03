@@ -17,26 +17,26 @@ public class Utest_Datos {
     private String strDispositivoMovil;
     private String strModeloDispositivoMovil;
     private String strSoDispositivoMovil;
-    private  String StrContrasena;
-    private String StrTextoFinal;
+    private  String strContrasena;
+    private String strTextoFinal;
 
 
     //creacion de get y set de cata uno de los campos creados anteriormente
 
     public String getStrTextoFinal() {
-        return StrTextoFinal;
+        return strTextoFinal;
     }
 
     public void setStrTextoFinal(String strTextoFinal) {
-        StrTextoFinal = strTextoFinal;
+        strTextoFinal = strTextoFinal;
     }
 
     public String getStrContrasena() {
-        return StrContrasena;
+        return strContrasena;
     }
 
     public void setStrContrasena(String strContrasena) {
-        StrContrasena = strContrasena;
+        strContrasena = strContrasena;
     }
 
     public String getStrComputador() {

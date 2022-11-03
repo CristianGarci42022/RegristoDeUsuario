@@ -8,7 +8,7 @@ public class PaginaFinal {
             .located(By.id("password"));
     public static final Target CONFIRMAR_CONTRASENA= Target.the("Campo para confirmar contraseña de usuario ")
             .located(By.id("confirmPassword"));
-
+    //Se le da los parametros de el boton o campo mediante el Path full del boton o campo que se valla a utlizar
     public static final Target CHECKBOX_STAY_INFORMED= Target.the("Checkbox para estar informado ")
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[4]/label/span"));
     public static final Target CHECKBOX_TERMS_OF_USE= Target.the("Checkbox terminos de uso ")
