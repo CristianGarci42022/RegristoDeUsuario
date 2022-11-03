@@ -23,12 +23,13 @@ public class Utest_Datos {
 
     //creacion de get y set de cata uno de los campos creados anteriormente
 
+
     public String getStrTextoFinal() {
         return strTextoFinal;
     }
 
     public void setStrTextoFinal(String strTextoFinal) {
-        strTextoFinal = strTextoFinal;
+        this.strTextoFinal = strTextoFinal;
     }
 
     public String getStrContrasena() {

@@ -17,5 +17,5 @@ public class PaginaFinal {
             .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[6]/label/span[1]"));
 
     public static final Target BOTON_SETUP= Target.the("Boton para ir a seccion finalizar")
-            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[2]/div/a"));
+            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div/div/a"));
 }
